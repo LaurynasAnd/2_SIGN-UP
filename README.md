@@ -6,9 +6,9 @@
 # Sign up
 ### 17 group - Sign up
 
-This project is for educational porpuses only. Pull request are welcome, but priority for me! Thank you for your cooperation!
+This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
 
-Site published at https://2_SIGN-UP.github.io/LaurynasAnd/2_SIGN-UP/
+Site published at https://laurynasand.github.io/2_SIGN-UP/
 
 ### Authors
 [LA](https://github.com/LaurynasAnd)
