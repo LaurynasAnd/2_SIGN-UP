@@ -24,7 +24,40 @@ body {
         padding: 80px;
         float: left;
         background-color: white;
+        position: relative;
     }
+        .close {
+            font-family: arial;
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+            margin-left: 0px;
+            text-align: center;
+            line-height: 80px;
+            position: absolute;
+            right: 0;
+            top: 0;
+            text-decoration: none;
+            font-size: 40px;
+            transform-origin: top left;
+
+        }
+            .close > .line {
+                display: inline-block;
+                width: 40px;
+                height: 2px;
+                background-color: #888;
+                position: absolute;
+                top: 49%;
+                left: 28%;
+            }
+            .close > .line:first-of-type {
+                transform: rotate(45deg);
+            }
+            .close > .line:last-of-type    {
+                transform: rotate(-45deg);
+            }
+
         .form span,
         .form a{
             display: inline-block;
