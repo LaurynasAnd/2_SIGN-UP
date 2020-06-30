@@ -1,8 +1,9 @@
-body,
+body
 body * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* vartical-align: top; */
+    vertical-align: top;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-break: break-all;
 }
