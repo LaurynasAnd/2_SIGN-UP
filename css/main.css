@@ -25,3 +25,22 @@ body {
         float: left;
         background-color: white;
     }
+        .form span,
+        .form a{
+            display: inline-block;
+            float: left;
+            padding: 10px;
+            line-height: 20px;
+            font-size: 17px;
+            /* background-color: red; */
+        }
+
+        .form span {
+            margin-left: 10px;
+        }
+        .form a {
+            color: #005dd8;
+            text-decoration: none;
+            font-weight: bold;
+
+        }
