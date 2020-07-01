@@ -1,108 +1,127 @@
 body {
     background-color: #51b2c6;
-}
-.container{
-    background-color: ;
-    display: inline-block;
-    width: 800px;
-    margin: 80px calc(50% - 400px) 0;
-    position: relative;
-
+    /* background-image: url(../img/mountain.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
 }
 
-
-    .container > .left{
-        display: inline-block;
-        float: left;
-        width: 40%;
-        background-color: #027bbd;
-        position: absolute;
-        top: 20px;
-        bottom: 20px;
-        left: 0;
+    .background {
         background-image: url(../img/mountain.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        height: 100vh;
+        filter: blur(10px);
+
     }
 
-        .main-title {
-            padding: 20px;
-            color: white;
-            font-weight: normal;
-        }
 
-        .footer {
-            position: absolute;
-            left: 20px;
-            bottom: 20px;
-            right: 20px;
-            color: white;
-        }
-        
-            .footer > a {
-                color: white;
-            }
-            .footer > span {
-                color: white;
-            }
-    
-    .container > .right{
+    .container{
+        background-color: ;
         display: inline-block;
-        width: 60%;
-        padding: 80px;
-        float: right;
-        background-color: white;
-        position: relative;
+        width: 800px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+
     }
-        .close {
-            font-family: arial;
-            display: inline-block;
-            width: 80px;
-            height: 80px;
-            margin-left: 0px;
-            text-align: center;
-            line-height: 80px;
-            position: absolute;
-            right: 0;
-            top: 0;
-            text-decoration: none;
-            font-size: 40px;
-            transform-origin: top left;
 
-        }
-            .close > .line {
-                display: inline-block;
-                width: 40px;
-                height: 2px;
-                background-color: #888;
-                position: absolute;
-                top: 49%;
-                left: 28%;
-            }
-            .close > .line:first-of-type {
-                transform: rotate(45deg);
-            }
-            .close > .line:last-of-type    {
-                transform: rotate(-45deg);
-            }
 
-        .form span,
-        .form a{
+        .container > .left{
             display: inline-block;
             float: left;
-            padding: 10px;
-            line-height: 20px;
-            font-size: 17px;
-            /* background-color: red; */
+            width: 40%;
+            background-color: #027bbd;
+            position: absolute;
+            top: 20px;
+            bottom: 20px;
+            left: 0;
+            background-image: url(../img/mountain.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
         }
 
-        .form span {
-            margin-left: 10px;
-        }
-        .form a {
-            color: #005dd8;
-            text-decoration: none;
-            font-weight: bold;
+            .main-title {
+                padding: 20px;
+                color: white;
+                font-weight: normal;
+            }
 
+            .footer {
+                position: absolute;
+                left: 20px;
+                bottom: 20px;
+                right: 20px;
+                color: white;
+            }
+            
+                .footer > a {
+                    color: white;
+                }
+                .footer > span {
+                    color: white;
+                }
+        
+        .container > .right{
+            display: inline-block;
+            width: 60%;
+            padding: 80px;
+            float: right;
+            background-color: white;
+            position: relative;
         }
+            .close {
+                font-family: arial;
+                display: inline-block;
+                width: 80px;
+                height: 80px;
+                margin-left: 0px;
+                text-align: center;
+                line-height: 80px;
+                position: absolute;
+                right: 0;
+                top: 0;
+                text-decoration: none;
+                font-size: 40px;
+                transform-origin: top left;
+
+            }
+                .close > .line {
+                    display: inline-block;
+                    width: 40px;
+                    height: 2px;
+                    background-color: #888;
+                    position: absolute;
+                    top: 49%;
+                    left: 28%;
+                }
+                .close > .line:first-of-type {
+                    transform: rotate(45deg);
+                }
+                .close > .line:last-of-type    {
+                    transform: rotate(-45deg);
+                }
+
+            .form span,
+            .form a{
+                display: inline-block;
+                float: left;
+                padding: 10px;
+                line-height: 20px;
+                font-size: 17px;
+                /* background-color: red; */
+            }
+
+            .form span {
+                margin-left: 10px;
+            }
+            .form a {
+                color: #005dd8;
+                text-decoration: none;
+                font-weight: bold;
+
+            }
